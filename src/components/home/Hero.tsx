@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Button } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 
@@ -54,26 +54,19 @@ export default function Hero() {
           variants={fadeUp}
           className="flex flex-col sm:flex-row items-start gap-6"
         >
-          <Button 
-            asChild
-            size="lg" 
-            className="h-14 px-8 text-base md:text-lg rounded-none tracking-wide bg-primary text-primary-foreground hover:bg-primary/90 group"
+          <Link 
+            href="/shop"
+            className={buttonVariants({ size: "lg", className: "h-14 px-8 text-base md:text-lg rounded-none tracking-wide group" })}
           >
-            <Link href="/shop">
-              Explore Collection
-              <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-            </Link>
-          </Button>
-          <Button 
-            asChild
-            size="lg" 
-            variant="outline" 
-            className="h-14 px-8 text-base md:text-lg rounded-none tracking-wide border-primary/20 hover:bg-primary/10 hover:text-primary transition-colors"
+            Explore Collection
+            <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+          </Link>
+          <Link 
+            href="/about"
+            className={buttonVariants({ variant: "outline", size: "lg", className: "h-14 px-8 text-base md:text-lg rounded-none tracking-wide border-primary/20 hover:bg-primary/10 hover:text-primary transition-colors" })}
           >
-            <Link href="/about">
-              Read Our Story
-            </Link>
-          </Button>
+            Read Our Story
+          </Link>
         </motion.div>
       </motion.div>
     </section>

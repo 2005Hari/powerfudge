@@ -61,7 +61,7 @@ export default function FounderLetter() {
           >
             {/* Founder Image */}
             <Image
-              src="/images/founder.png"
+              src="/images/founder.jpg"
               alt="Megha, Founder of PowerFudge"
               fill
               className="object-cover grayscale hover:grayscale-0 transition-all duration-700 object-top"

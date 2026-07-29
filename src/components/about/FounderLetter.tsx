@@ -21,31 +21,24 @@ export default function FounderLetter() {
           <div className="w-16 h-[1px] bg-primary/40" />
           <div className="space-y-6 text-muted-foreground text-lg font-light leading-relaxed">
             <p>
-              It started with a simple problem — I love sweets, but hated the guilt that came with them! <motion.span className="inline-block" animate={{ y: [0, -4, 0] }} transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}>😅</motion.span> My husband&apos;s a gym-goer, always hunting for something healthy to munch on <motion.span className="inline-block" animate={{ y: [0, -4, 0], rotate: [0, 5, -5, 0] }} transition={{ duration: 2.5, repeat: Infinity, ease: "easeInOut", delay: 0.2 }}>🏋️</motion.span>. I&apos;m the sweet-tooth in the house, always craving chocolate but trying to cut back on sugar <motion.span className="inline-block" animate={{ y: [0, -4, 0] }} transition={{ duration: 2.2, repeat: Infinity, ease: "easeInOut", delay: 0.4 }}>🍫</motion.span>.
+              It started with a simple problem — I love sweets, but hated the guilt that came with them! My husband&apos;s a gym-goer, always hunting for something healthy to munch on. I&apos;m the sweet-tooth in the house, always craving chocolate but trying to cut back on sugar.
             </p>
             <p>
               Between the two of us, every &quot;healthy&quot; snack in the market felt either bland, overpriced, or full of things I couldn&apos;t even pronounce! So I started making my own:
             </p>
-            <ul className="space-y-2 py-2 text-foreground font-medium">
-              <li className="flex items-center gap-3">
-                <motion.span className="text-xl inline-block" animate={{ rotate: [0, 15, -15, 0], scale: [1, 1.1, 1] }} transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}>✨</motion.span> No maida
-              </li>
-              <li className="flex items-center gap-3">
-                <motion.span className="text-xl inline-block" animate={{ rotate: [0, -15, 15, 0], scale: [1, 1.1, 1] }} transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}>✨</motion.span> No refined sugar
-              </li>
-              <li className="flex items-start gap-3">
-                <motion.span className="text-xl leading-none mt-1 inline-block" animate={{ rotate: [0, 15, -15, 0], scale: [1, 1.1, 1] }} transition={{ duration: 3, repeat: Infinity, ease: "easeInOut", delay: 1 }}>✨</motion.span>
-                <span>Just real ingredients like roasted chana, khajur, cashews, almonds and cocoa powder.</span>
-              </li>
+            <ul className="space-y-2 py-2 text-foreground font-medium list-disc list-inside">
+              <li>No maida</li>
+              <li>No refined sugar</li>
+              <li>Just real ingredients like roasted chana, khajur, cashews, almonds and cocoa powder.</li>
             </ul>
             <p>
-              Made fresh, in my own kitchen <motion.span className="inline-block" animate={{ y: [0, -3, 0] }} transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}>🏡</motion.span> What began as a way to satisfy my own cravings guilt-free turned into something my whole family loved!
+              Made fresh, in my own kitchen. What began as a way to satisfy my own cravings guilt-free turned into something my whole family loved!
             </p>
             <p>
               And I have a feeling I&apos;m not the only one looking for a sweet that&apos;s actually honest — homemade, affordable, and doesn&apos;t ask you to choose between taste and health.
             </p>
             <p className="font-medium text-foreground text-xl italic pt-2">
-              That&apos;s PowerFudge. <motion.span className="inline-block" animate={{ scale: [1, 1.1, 1] }} transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}>🧡</motion.span> A treat, not a compromise!
+              That&apos;s PowerFudge. A treat, not a compromise!
             </p>
           </div>
           <div className="pt-4">

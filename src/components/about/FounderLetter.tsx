@@ -64,6 +64,8 @@ export default function FounderLetter() {
               src="/images/founder.jpg"
               alt="Megha, Founder of PowerFudge"
               fill
+              quality={100}
+              sizes="(max-width: 768px) 100vw, 50vw"
               className="object-cover grayscale hover:grayscale-0 transition-all duration-700 object-top"
             />
           </motion.div>

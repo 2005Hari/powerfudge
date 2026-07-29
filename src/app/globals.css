@@ -45,49 +45,49 @@
 
 :root,
 .dark {
-  --background: #FDF9F1;
-  /* Cashew Cream */
-  --foreground: #38220F;
-  /* Chocolate Brown */
+  --background: #F9F7F4;
+  /* Luxe Linen Cream */
+  --foreground: #271C19;
+  /* Deep Espresso */
 
-  --card: #F7EFE1;
-  /* Almond Cream */
-  --card-foreground: #38220F;
+  --card: #F1EBE3;
+  /* Soft Stone */
+  --card-foreground: #271C19;
 
-  --popover: #F7EFE1;
-  --popover-foreground: #38220F;
+  --popover: #F1EBE3;
+  --popover-foreground: #271C19;
 
-  --primary: #5C3D2E;
-  /* Rich Chocolate */
-  --primary-foreground: #FDF9F1;
+  --primary: #7A4C3A;
+  /* Warm Cocoa */
+  --primary-foreground: #F9F7F4;
 
-  --secondary: #D4A373;
-  /* Caramel / Toasted Almond */
-  --secondary-foreground: #38220F;
+  --secondary: #A37C63;
+  /* Muted Almond */
+  --secondary-foreground: #271C19;
 
-  --muted: #EADFC8;
-  /* Muted Cashew */
-  --muted-foreground: #7D6352;
-  /* Milk Chocolate */
+  --muted: #E4DBD1;
+  /* Muted Greige */
+  --muted-foreground: #63534B;
+  /* Medium Truffle */
 
-  --accent: #D4A373;
-  --accent-foreground: #38220F;
+  --accent: #A37C63;
+  --accent-foreground: #271C19;
 
-  --destructive: #90323D;
-  --border: #E0D4C3;
-  --input: #E0D4C3;
-  --ring: #5C3D2E;
+  --destructive: #8B3A3A;
+  --border: #D5C8B9;
+  --input: #D5C8B9;
+  --ring: #7A4C3A;
 
   --radius: 0.5rem;
 
-  --sidebar: #F7EFE1;
-  --sidebar-foreground: #38220F;
-  --sidebar-primary: #5C3D2E;
-  --sidebar-primary-foreground: #FDF9F1;
-  --sidebar-accent: #EADFC8;
-  --sidebar-accent-foreground: #38220F;
-  --sidebar-border: #E0D4C3;
-  --sidebar-ring: #5C3D2E;
+  --sidebar: #F1EBE3;
+  --sidebar-foreground: #271C19;
+  --sidebar-primary: #7A4C3A;
+  --sidebar-primary-foreground: #F9F7F4;
+  --sidebar-accent: #E4DBD1;
+  --sidebar-accent-foreground: #271C19;
+  --sidebar-border: #D5C8B9;
+  --sidebar-ring: #7A4C3A;
 }
 
 @layer base {

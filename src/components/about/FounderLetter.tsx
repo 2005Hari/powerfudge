@@ -59,12 +59,12 @@ export default function FounderLetter() {
             transition={{ duration: 15, repeat: Infinity, ease: "easeInOut" }}
             className="w-full h-full relative"
           >
-            {/* Using a premium Unsplash image as placeholder for founder/kitchen */}
+            {/* Founder Image */}
             <Image
-              src="https://images.unsplash.com/photo-1556910103-1c02745a872e?auto=format&fit=crop&q=80&w=800"
-              alt="Crafting PowerFudge"
+              src="/images/founder.jpg"
+              alt="Megha, Founder of PowerFudge"
               fill
-              className="object-cover grayscale hover:grayscale-0 transition-all duration-700"
+              className="object-cover grayscale hover:grayscale-0 transition-all duration-700 object-top"
             />
           </motion.div>
         </motion.div>
